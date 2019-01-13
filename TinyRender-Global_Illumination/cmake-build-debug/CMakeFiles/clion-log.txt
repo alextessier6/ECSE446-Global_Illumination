@@ -1,0 +1,13 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug "-DOpenMP_CXX_FLAGS=-Xpreprocessor -fopenmp -I/usr/local/Cellar/libomp/6.0.1/include" -DOpenMP_CXX_LIB_NAMES=omp -DOpenMP_omp_LIBRARY=/usr/local/Cellar/libomp/6.0.1/lib/libomp.a -G "CodeBlocks - Unix Makefiles" "/Users/alexandre/Documents/ECSE 446/Assignments/Assignment5"
+OpenGL Found
+GLEW Found
+-- Boost version: 1.67.0
+-- Found the following Boost libraries:
+--   filesystem
+--   system
+-- Found OpenMP_C: -fopenmp -Wno-unused-command-line-argument  
+-- Found OpenMP_CXX: -Xpreprocessor -fopenmp -I/usr/local/Cellar/libomp/6.0.1/include (found version "3.1") 
+-- Found OpenMP: TRUE (found version "3.1")  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/alexandre/Documents/ECSE 446/Assignments/Assignment5/cmake-build-debug
